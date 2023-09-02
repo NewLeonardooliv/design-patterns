@@ -8,4 +8,7 @@ Bem-vindo ao meu repositório de estudos sobre design patterns em PHP. Aqui voc�
 ### Chain of Responsibility Pattern
 É um padrão de design comportamental que visa criar uma cadeia de objetos (ou "manipuladores") para processar uma solicitação. Cada objeto na cadeia tem a capacidade de processar a solicitação ou passá-la para o próximo objeto na cadeia. A ideia central é que você pode enviar uma solicitação através da cadeia sem saber qual objeto específico a tratará e permitindo que vários objetos possam processar a solicitação de forma independente.
 
+### Template Method Pattern
+É um padrão de design comportamental que define a estrutura de um algoritmo, permitindo que partes específicas desse algoritmo sejam implementadas por subclasses. Ele fornece um esqueleto ou molde para um algoritmo, enquanto permite que as etapas individuais desse algoritmo sejam personalizadas nas subclasses.
+
 Explore o código-fonte, para mais exemplos reais.

@@ -4,7 +4,7 @@ namespace Src\Patterns\Discounts;
 
 use Src\Patterns\Budget;
 
-class MoreThan500Currency extends Discount
+class MoreThanFiveHundredCurrency extends Discount
 {
     public function calculate(Budget $budget): float
     {

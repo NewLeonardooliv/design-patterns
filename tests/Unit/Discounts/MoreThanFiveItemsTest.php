@@ -6,18 +6,18 @@ use Src\Patterns\Budget;
 use Src\Patterns\DiscountsCalculator;
 use PHPUnit\Framework\TestCase;
 
-final class MoreThan500CurrencyTest extends TestCase
+final class MoreThanFiveItemsTest extends TestCase
 {
-    public function testCalculateMoreThan500Currency()
+    public function testCalculateMoreThanFiveItems()
     {
         $calculator = new DiscountsCalculator();
 
         $bugdet = new Budget();
-        $bugdet->price = 600;
-        $bugdet->items = 4;
+        $bugdet->price = 300;
+        $bugdet->items = 6;
 
         $discount = $calculator->calculate($bugdet);
 
-        $this->assertEquals(300, $discount);
+        $this->assertEquals(30, $discount);
     }
 }
