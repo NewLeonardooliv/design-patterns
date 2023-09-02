@@ -4,7 +4,7 @@ namespace Src\Patterns\Tax;
 
 use Src\Patterns\Budget;
 
-class Iss implements ITax
+class Iss implements TaxInterface
 {
     public function calculate(Budget $budget): float
     {

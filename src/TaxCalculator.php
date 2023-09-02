@@ -2,11 +2,11 @@
 
 namespace Src\Patterns;
 
-use Src\Patterns\Tax\ITax;
+use Src\Patterns\Tax\TaxInterface;
 
 class TaxCalculator
 {
-    public function calculate(Budget $budget, ITax $tax): float
+    public function calculate(Budget $budget, TaxInterface $tax): float
     {
         return $tax->calculate($budget);
     }
