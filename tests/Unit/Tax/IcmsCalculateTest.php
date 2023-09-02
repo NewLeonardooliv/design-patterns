@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 final class IcmsCalculateTest extends TestCase
 {
-    public function testIcmsCalculate()
+    public function testCalculateIcms()
     {
         $calculator = new TaxCalculator();
 

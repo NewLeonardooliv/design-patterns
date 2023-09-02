@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 final class IssCalculateTest extends TestCase
 {
-    public function testIssCalculate()
+    public function testCalculateIss()
     {
         $calculator = new TaxCalculator();
 
