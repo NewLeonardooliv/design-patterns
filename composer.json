@@ -2,7 +2,7 @@
     "name": "leonardo/patterns",
     "autoload": {
         "psr-4": {
-            "Leonardo\\Patterns\\": "src/"
+            "Src\\Patterns\\": "src/"
         }
     },
     "authors": [

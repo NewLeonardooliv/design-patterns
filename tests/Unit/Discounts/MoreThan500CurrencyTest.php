@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Discounts;
 
-use Leonardo\Patterns\Budget;
-use Leonardo\Patterns\DiscountsCalculator;
+use Src\Patterns\Budget;
+use Src\Patterns\DiscountsCalculator;
 use PHPUnit\Framework\TestCase;
 
 final class MoreThan500CurrencyTest extends TestCase

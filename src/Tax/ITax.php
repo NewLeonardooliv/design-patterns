@@ -1,8 +1,8 @@
 <?php
 
-namespace Leonardo\Patterns\Tax;
+namespace Src\Patterns\Tax;
 
-use Leonardo\Patterns\Budget;
+use Src\Patterns\Budget;
 
 interface ITax
 {

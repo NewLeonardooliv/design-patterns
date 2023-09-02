@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Tax;
 
-use Leonardo\Patterns\Budget;
-use Leonardo\Patterns\Tax\Icms;
-use Leonardo\Patterns\TaxCalculator;
+use Src\Patterns\Budget;
+use Src\Patterns\Tax\Icms;
+use Src\Patterns\TaxCalculator;
 use PHPUnit\Framework\TestCase;
 
 final class IcmsCalculateTest extends TestCase

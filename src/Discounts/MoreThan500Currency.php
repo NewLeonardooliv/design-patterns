@@ -1,8 +1,8 @@
 <?php
 
-namespace Leonardo\Patterns\Discounts;
+namespace Src\Patterns\Discounts;
 
-use Leonardo\Patterns\Budget;
+use Src\Patterns\Budget;
 
 class MoreThan500Currency extends Discount
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Leonardo\Patterns;
+namespace Src\Patterns;
 
-use Leonardo\Patterns\Budget;
-use Leonardo\Patterns\Discounts\MoreThan500Currency;
-use Leonardo\Patterns\Discounts\MoreThan5Items;
-use Leonardo\Patterns\Discounts\NoDiscount;
+use Src\Patterns\Budget;
+use Src\Patterns\Discounts\MoreThan500Currency;
+use Src\Patterns\Discounts\MoreThan5Items;
+use Src\Patterns\Discounts\NoDiscount;
 
 class DiscountsCalculator
 {

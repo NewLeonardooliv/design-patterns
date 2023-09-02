@@ -1,6 +1,6 @@
 <?php
 
-namespace Leonardo\Patterns;
+namespace Src\Patterns;
 
 class Budget
 {

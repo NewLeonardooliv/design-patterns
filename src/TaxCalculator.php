@@ -1,8 +1,8 @@
 <?php
 
-namespace Leonardo\Patterns;
+namespace Src\Patterns;
 
-use Leonardo\Patterns\Tax\ITax;
+use Src\Patterns\Tax\ITax;
 
 class TaxCalculator
 {
