@@ -4,6 +4,9 @@ namespace Tests\Unit\GenerateOrder;
 
 use PHPUnit\Framework\TestCase;
 use Src\Patterns\GenerateOrder;
+use Src\Patterns\GenerateOrderActions\CreateOrder;
+use Src\Patterns\GenerateOrderActions\LogWhenCreateOrder;
+use Src\Patterns\GenerateOrderActions\SendOrderOnEmail;
 use Src\Patterns\GenerateOrderHandler;
 
 /**
@@ -26,6 +29,9 @@ final class GenerateOrderTest extends TestCase
         );
 
         $generateOrderHander = new GenerateOrderHandler();
+        $generateOrderHander->addActionWhenCreateOrder(new CreateOrder());
+        $generateOrderHander->addActionWhenCreateOrder(new SendOrderOnEmail());
+        $generateOrderHander->addActionWhenCreateOrder(new LogWhenCreateOrder());
         $generateOrderHander->execute($generateOrder);
 
         $this->assertInstanceOf(GenerateOrder::class, $generateOrder);

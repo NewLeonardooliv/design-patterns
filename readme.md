@@ -26,4 +26,8 @@ O padrão Command é um padrão de design comportamental que visa encapsular uma
 O padrão Command Handler, por outro lado, é uma extensão ou variação do padrão Command. Em vez de tratar com comandos individuais, o Command Handler lida com a execução e o gerenciamento de uma série de comandos relacionados.
 Os Command Handlers podem ser úteis quando você tem várias operações para serem executadas em conjunto ou quando deseja implementar lógica adicional de controle em torno da execução dos comandos.
 
+### Observer Pattern
+
+É um padrão de design comportamental que permite que um objeto, chamado de "observador," seja notificado automaticamente quando o estado de outro objeto, chamado de "sujeito" ou "observado," muda. Em outras palavras, ele estabelece uma relação de dependência um-para-muitos, onde vários observadores estão interessados nas mudanças de um objeto.
+
 Explore o código-fonte, para mais exemplos reais.
