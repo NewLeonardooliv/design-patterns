@@ -1,6 +1,6 @@
-# Design Patterns em PHP
+# Design Patterns
 
-Bem-vindo ao meu repositório de estudos sobre design patterns em PHP. Aqui você encontrará implementações práticas e explicativas de diversos design patterns, bem como exemplos que ilustram como eles podem ser aplicados no desenvolvimento de software em PHP.
+Repositório de estudos sobre design patterns. Aqui você encontrará implementações práticas de diversos design patterns, bem como exemplos que ilustram como eles podem ser aplicados no desenvolvimento de software.
 
 ## Design Patterns Abordados
 
