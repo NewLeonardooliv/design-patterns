@@ -6,7 +6,11 @@ Bem-vindo ao meu repositório de estudos sobre design patterns em PHP. Aqui voc�
 
 ### Strategy Pattern
 
-é um padrão de design de software que permite que você defina uma família de algoritmos, coloque cada um deles em uma classe separada e torne-os intercambiáveis. Isso significa que você pode escolher o algoritmo que deseja usar em tempo de execução, com base nas necessidades específicas do seu programa.
+É um padrão de design de software que permite que você defina uma família de algoritmos, coloque cada um deles em uma classe separada e torne-os intercambiáveis. Isso significa que você pode escolher o algoritmo que deseja usar em tempo de execução, com base nas necessidades específicas do seu programa.
+
+### State Pattern
+
+O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda. Cada estado é representado por uma classe separada, tornando mais fácil adicionar novos estados ou modificar o comportamento existente.
 
 ### Chain of Responsibility Pattern
 
