@@ -13,7 +13,7 @@ abstract class BudgetState
         throw new \DomainException('Um orçamento não pode ser aprovado');
     }
 
-    public function disaprove(Budget $budget)
+    public function disapprove(Budget $budget)
     {
         throw new \DomainException('Um orçamento não pode ser reprovado');
     }

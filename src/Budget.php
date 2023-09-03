@@ -26,9 +26,9 @@ class Budget
         $this->state->approve($this);
     }
 
-    public function disaprove()
+    public function disapprove()
     {
-        $this->state->disaprove($this);
+        $this->state->disapprove($this);
     }
 
     public function finish()

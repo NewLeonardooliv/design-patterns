@@ -13,7 +13,7 @@ class OnApproval extends BudgetState
 
     public function approve(Budget $budget)
     {
-        $budget->state = new Approve();
+        $budget->state = new Approved();
     }
 
     public function disapprove(Budget $budget)

@@ -4,7 +4,7 @@ namespace Src\Patterns\BudgetStates;
 
 use Src\Patterns\Budget;
 
-class Approve extends BudgetState
+class Approved extends BudgetState
 {
     public function calculateExtraDiscount(Budget $budget): float
     {
