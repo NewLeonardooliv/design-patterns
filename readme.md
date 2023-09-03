@@ -20,4 +20,10 @@ Bem-vindo ao meu repositório de estudos sobre design patterns em PHP. Aqui voc�
 
 É um dos cinco princípios do SOLID, um conjunto de diretrizes de design de software que promovem a criação de código flexível, extensível e de fácil manutenção. O princípio afirma que as subclasses devem ser substituíveis por suas classes base (superclasses) sem afetar a integridade do programa. Em termos mais simples, isso significa que se você estiver usando uma instância de uma classe derivada (subclasse), ela deve se comportar de maneira compatível com a classe base (superclasse) sem causar problemas ou surpresas.
 
+### Command and Command Handler
+
+O padrão Command é um padrão de design comportamental que visa encapsular uma solicitação como um objeto, permitindo que você parametrize clientes com operações, enfileire solicitações, registre solicitações e forneça suporte para operações desfazer.
+O padrão Command Handler, por outro lado, é uma extensão ou variação do padrão Command. Em vez de tratar com comandos individuais, o Command Handler lida com a execução e o gerenciamento de uma série de comandos relacionados.
+Os Command Handlers podem ser úteis quando você tem várias operações para serem executadas em conjunto ou quando deseja implementar lógica adicional de controle em torno da execução dos comandos.
+
 Explore o código-fonte, para mais exemplos reais.
